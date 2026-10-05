@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "net.modelbrain/mcp",
+  "description": "Local memory for AI assistants: remember, recall, forget and expand, stored on your own computer.",
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "modelbrain-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/modelbrain/modelbrain-mcp",
+    "source": "github"
+  }
+}

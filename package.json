@@ -1,0 +1,41 @@
+{
+  "name": "modelbrain-mcp",
+  "version": "0.1.1",
+  "description": "Thin MCP stdio client for ModelBrain, a local memory layer for AI assistants. Connects to the ModelBrain desktop app already running on your computer; does not bundle ModelBrain itself.",
+  "bin": {
+    "modelbrain-mcp": "bin/modelbrain-mcp.js"
+  },
+  "main": "bin/modelbrain-mcp.js",
+  "files": [
+    "bin/modelbrain-mcp.js",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "author": "Matthew Firth <hello@modelbrain.net> (https://modelbrain.net)",
+  "homepage": "https://modelbrain.net",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "modelbrain",
+    "memory",
+    "ai-memory",
+    "local-first"
+  ],
+  "os": [
+    "darwin",
+    "win32"
+  ],
+  "mcpName": "net.modelbrain/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modelbrain/modelbrain-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/modelbrain/modelbrain-mcp/issues"
+  }
+}
