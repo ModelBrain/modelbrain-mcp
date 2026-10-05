@@ -1,6 +1,6 @@
 {
   "name": "modelbrain-mcp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Thin MCP stdio client for ModelBrain, a local memory layer for AI assistants. Connects to the ModelBrain desktop app already running on your computer; does not bundle ModelBrain itself.",
   "bin": {
     "modelbrain-mcp": "bin/modelbrain-mcp.js"
@@ -33,9 +33,9 @@
   "mcpName": "net.modelbrain/mcp",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/modelbrain/modelbrain-mcp.git"
+    "url": "git+https://github.com/ModelBrain/modelbrain-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/modelbrain/modelbrain-mcp/issues"
+    "url": "https://github.com/ModelBrain/modelbrain-mcp/issues"
   }
 }
