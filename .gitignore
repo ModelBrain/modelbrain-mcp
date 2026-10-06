@@ -3,3 +3,4 @@ node_modules/
 mcp-registry-auth
 .DS_Store
 PUBLISHING.md
+*.mcpb

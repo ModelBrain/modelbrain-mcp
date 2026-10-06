@@ -1,0 +1,14 @@
+.git
+.gitignore
+.dockerignore
+Dockerfile
+glama.json
+server.json
+PUBLISHING.md
+key.pem
+*.pem
+mcp-registry-auth
+.DS_Store
+*.mcpb
+node_modules
+.well-known

@@ -1,0 +1,40 @@
+{
+  "manifest_version": "0.3",
+  "name": "modelbrain-mcp",
+  "display_name": "ModelBrain",
+  "version": "0.1.2",
+  "description": "Local memory for AI assistants: remember, recall, forget and expand, stored on your own computer. Requires the ModelBrain desktop app.",
+  "long_description": "ModelBrain is a memory layer that plugs into the AI assistants you already use and keeps what it remembers on your own computer. This bundle is a thin launcher: it finds the ModelBrain desktop app already installed on your machine and connects your assistant to it. It does not install or include ModelBrain. Get the app at https://modelbrain.net/get-it.html.",
+  "author": {
+    "name": "Matthew Firth",
+    "email": "hello@modelbrain.net",
+    "url": "https://modelbrain.net"
+  },
+  "homepage": "https://modelbrain.net",
+  "documentation": "https://modelbrain.net/docs.html",
+  "support": "https://modelbrain.net/support.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ModelBrain/modelbrain-mcp"
+  },
+  "license": "MIT",
+  "keywords": ["mcp", "memory", "ai-memory", "local-first", "modelbrain"],
+  "server": {
+    "type": "node",
+    "entry_point": "bin/modelbrain-mcp.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/bin/modelbrain-mcp.js"]
+    }
+  },
+  "tools": [
+    { "name": "remember", "description": "Save a fact, decision or preference to local memory." },
+    { "name": "recall", "description": "Search local memory and return the most relevant items." },
+    { "name": "forget", "description": "Remove a memory so it stops surfacing." },
+    { "name": "expand", "description": "Return the full text of a recalled memory." }
+  ],
+  "compatibility": {
+    "platforms": ["darwin", "win32"],
+    "runtimes": { "node": ">=18.0.0" }
+  }
+}
