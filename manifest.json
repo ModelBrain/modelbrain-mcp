@@ -2,8 +2,8 @@
   "manifest_version": "0.3",
   "name": "modelbrain-mcp",
   "display_name": "ModelBrain",
-  "version": "0.1.2",
-  "description": "Local memory for AI assistants: remember, recall, forget and expand, stored on your own computer. Requires the ModelBrain desktop app.",
+  "version": "0.1.3",
+  "description": "Private memory layer for AI assistants. Local-first: remember, recall, forget, expand. Requires the ModelBrain desktop app.",
   "long_description": "ModelBrain is a memory layer that plugs into the AI assistants you already use and keeps what it remembers on your own computer. This bundle is a thin launcher: it finds the ModelBrain desktop app already installed on your machine and connects your assistant to it. It does not install or include ModelBrain. Get the app at https://modelbrain.net/get-it.html.",
   "author": {
     "name": "Matthew Firth",

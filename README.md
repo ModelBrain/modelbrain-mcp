@@ -1,6 +1,8 @@
 # modelbrain-mcp
 
-A thin [MCP](https://modelcontextprotocol.io) stdio client for [ModelBrain](https://modelbrain.net): a memory layer for AI assistants that runs on your own computer.
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/modelbrain/modelbrain-mcp)
+
+A thin [MCP](https://modelcontextprotocol.io) stdio client for [ModelBrain](https://modelbrain.net): the private memory layer for AI assistants: one memory for every assistant you use, kept on your own computer.
 
 This package does not install or bundle ModelBrain. It connects to the ModelBrain desktop app already running on your machine. If ModelBrain is not installed, running this prints where to get it and exits, rather than failing silently.
 
