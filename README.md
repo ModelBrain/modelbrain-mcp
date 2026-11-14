@@ -2,7 +2,7 @@
 
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/modelbrain/modelbrain-mcp)
 
-A thin [MCP](https://modelcontextprotocol.io) stdio client for [ModelBrain](https://modelbrain.net): the private memory layer for AI assistants: one memory for every assistant you use, kept on your own computer.
+A thin [MCP](https://modelcontextprotocol.io) stdio client for [ModelBrain](https://modelbrain.net): one memory for every AI assistant you use. The memory is kept on your own computer. If you sync it to your other computers or share it with a team, the copy ModelBrain stores is encrypted on your computer first, and ModelBrain does not hold the key.
 
 This package does not install or bundle ModelBrain. It connects to the ModelBrain desktop app already running on your machine.
 
