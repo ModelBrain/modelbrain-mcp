@@ -1,0 +1,21 @@
+{
+  "name": "modelbrain",
+  "displayName": "ModelBrain",
+  "version": "0.1.0",
+  "description": "Teaches Claude Code when to recall from and save to your ModelBrain memory. Requires the free ModelBrain desktop app, which keeps the memory on your own computer.",
+  "author": {
+    "name": "Matthew Firth",
+    "email": "hello@modelbrain.net",
+    "url": "https://modelbrain.net"
+  },
+  "homepage": "https://modelbrain.net/docs/connect/claude-code.html",
+  "repository": "https://github.com/ModelBrain/modelbrain-mcp",
+  "license": "MIT",
+  "keywords": [
+    "memory",
+    "ai-memory",
+    "local-first",
+    "mcp",
+    "modelbrain"
+  ]
+}
