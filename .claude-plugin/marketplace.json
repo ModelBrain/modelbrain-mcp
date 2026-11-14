@@ -1,0 +1,16 @@
+{
+  "name": "modelbrain",
+  "description": "ModelBrain for Claude Code: one memory for every AI assistant you use, kept on your own computer.",
+  "owner": {
+    "name": "ModelBrain",
+    "email": "hello@modelbrain.net",
+    "url": "https://modelbrain.net"
+  },
+  "plugins": [
+    {
+      "name": "modelbrain",
+      "source": "./claude-plugin",
+      "description": "Teaches Claude Code when to recall from and save to your ModelBrain memory. Requires the free ModelBrain desktop app."
+    }
+  ]
+}
