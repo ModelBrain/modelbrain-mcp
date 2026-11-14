@@ -1,7 +1,7 @@
 {
   "name": "modelbrain-mcp",
   "version": "0.1.4",
-  "description": "Thin MCP stdio client for ModelBrain, the private memory layer for AI assistants. Connects to the ModelBrain desktop app already running on your computer; does not bundle ModelBrain itself.",
+  "description": "MCP client for ModelBrain, a local-first memory layer that gives Claude, ChatGPT and Cursor one shared memory, kept on your own computer. Connects to the ModelBrain desktop app already running on your computer; does not bundle ModelBrain itself.",
   "bin": {
     "modelbrain-mcp": "bin/modelbrain-mcp.js"
   },
