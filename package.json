@@ -1,6 +1,6 @@
 {
   "name": "modelbrain-mcp",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "MCP client for ModelBrain, a local-first memory layer that gives Claude, ChatGPT and Cursor one shared memory, kept on your own computer. Connects to the ModelBrain desktop app already running on your computer; does not bundle ModelBrain itself.",
   "bin": {
     "modelbrain-mcp": "bin/modelbrain-mcp.js"
