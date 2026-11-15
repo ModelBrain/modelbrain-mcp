@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "net.modelbrain/mcp",
-  "description": "One memory for Claude, ChatGPT and Cursor, kept on your own computer. Needs the ModelBrain app.",
+  "description": "One memory for Claude, ChatGPT and Cursor, kept on your computer. Optional sync, encrypted first.",
   "version": "0.1.5",
   "packages": [
     {
